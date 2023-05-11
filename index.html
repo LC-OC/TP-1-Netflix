@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link style-->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styleHome.css" />
+    <script src="https://kit.fontawesome.com/019b68e105.js" crossorigin="anonymous"></script>
+    <meta content="Regardez des films et des séries Netflix en ligne, sur votre smartphone;TV, console de jeu, PC, Mac, smartphone, tablette et bien plus." name="description">
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo_netflix.png" alt="logo netflix" class="logo">
+        <nav>
+            <select name="language" id="select" >
+                <option value="english">English</option>
+                <option value="french" selected>Français</option>
+            </select>
+            <a href="signIn.html" alt="sign in page">
+                <button id="button_signin">Sign In</button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <h1>Unlimited movies, TV shows, and more. </h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <p id="ready_to_watch">Ready to watch ? Enter your email to create or restart your membership.</p>
+        <form>
+            <input type="email" name="email" placeholder="Email adress" id="input_mail_start" />
+            <button id="button_start" disabled>Get Started<i class="fas fa-chevron-right" ></i></button>
+        </form>
+    </main>
+</body>
+</html>

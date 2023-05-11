@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link style-->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styleSignIn.css" />
+    <script src="https://kit.fontawesome.com/019b68e105.js" crossorigin="anonymous"></script>
+    <meta content="Regardez des films et des séries Netflix en ligne, sur votre smartphone;TV, console de jeu, PC, Mac, smartphone, tablette et bien plus." name="description">
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo_netflix.png" alt="logo netflix" class="logo">
+    </header>
+    <main>
+        <form action="index.html">
+            <h1>S'identifier</h1>
+            <div id="input_container">
+                <input type="text" placeholder="E-mail ou numéro de téléphone" name="email_tel" class="login_user">
+                <input type="password" placeholder="Mot de passe" name="password" class="login_user">
+            </div>
+            <div id="button_checkbox_container">
+                <button id="login_button">S'identifier</button>
+                <div id="checkbox_help_container">
+                    <div id="checkbox_container">
+                        <input type="checkbox" name="remember_me" value="remember_me" id="check_remember_me">
+                        <label for="remember_me">Se souvenir de moi</label>
+                    </div>
+                    <p>Besoin d'aide ?</p>
+                </div>
+            </div>
+            <p id="first_visit_text">Première visite sur Netflix ? <span>Inscrivez-vous</span></p>
+            <p id="captcha_text">Cette page est protégée par Google reCAPTCHA pour nous assurer que vous n'êtes pas un robot.</p>
+            <p id="more_text">En savoir plus.</p>
+        </form>
+    </main>
+    <footer>
+        <div id="footer_container">
+            <p>Des questions ? Appelez le (+33)0805-543-063</p>
+            <div id="list_footer">
+                <div>
+                    <p class="footer_element">FAQ</p>
+                    <p class="footer_element">Confidentialité</p>
+                </div>
+                <div>
+                    <p class="footer_element">Centre d'aide</p>
+                    <p class="footer_element">Préférences de cookies</p>
+                </div>
+                <div>
+                    <p class="footer_element">Boutique Netflix</p>
+                    <p class="footer_element">Mentions légales</p>
+                </div>
+                <div>
+                    <p class="footer_element">Conditions d'utilisation</p>
+                </div>
+            </div>
+            <select name="language" id="select" >
+                <option value="english">English</option>
+                <option value="french" selected>Français</option>
+            </select>
+        </div>
+    </footer>
+</body>
+</html>
